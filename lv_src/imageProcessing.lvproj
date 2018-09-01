@@ -484,6 +484,54 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="FaceDetector" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{3D563C85-23D8-4CF5-8C42-8E0A8BC84482}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{92406C01-25E6-436F-9FF7-EDECFE845941}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8080</Property>
+				<Property Name="App_webService.count" Type="Int">1</Property>
+				<Property Name="App_webService[0].itemID" Type="Ref">/My Computer/image_processing</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{E2B1C4F5-569A-4F70-8B4B-1C1EC3F6D65F}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Facial detection app demonstrating the combination of LabVIEW, Python, and a web UI.
+
+Happy coding :)
+
+Danielle Jobe
+VI Technologies, BV
+August 2018</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">FaceDetector</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/FaceDetector/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{3BC30F91-32BA-4568-9493-7135664BE3ED}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">FaceDetector.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/FaceDetector/NI_AB_PROJECTNAME/FaceDetector.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/FaceDetector/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A7B5909B-BA72-4CA1-8EBE-D20C85601497}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/image_processing/Startup VIs/Launcher.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">VI Technologies</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">FaceDetector</Property>
+				<Property Name="TgtF_internalName" Type="Str">FaceDetector</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 VI Technologies</Property>
+				<Property Name="TgtF_productName" Type="Str">FaceDetector</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{5278A8AE-72CD-43DA-AC84-7D64EA4C8BE6}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">FaceDetector.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>

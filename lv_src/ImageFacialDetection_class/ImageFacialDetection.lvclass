@@ -45,7 +45,83 @@
 	<Item Name="ImageFacialDetection.ctl" Type="Class Private Data" URL="ImageFacialDetection.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="typedefs" Type="Folder">
+	<Item Name="API" Type="Folder">
+		<Item Name="polymorphic instances" Type="Folder">
+			<Item Name="FindFaces_IMAQ.vi" Type="VI" URL="../FindFaces_IMAQ.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!))!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#!!.`````]!"2=!A!!!!!!"!!1!!!!"!!!!!!!!!!!!8Q$R!!!!!!!!!!%/35V"53"*&lt;7&amp;H:3ZD&gt;'Q!3%"Q!"U*35V"55FN97&gt;F!!%!"1F*45&amp;237VB:W58!)!!!!!!!1!%!!!!!1!!!!!!!""J&lt;7&amp;H:3"X;82I)':B9W6T!!!W1(!!(A!!(BR*&lt;7&amp;H:5:B9WFB&lt;%2F&gt;'6D&gt;'FP&lt;CZM&gt;G.M98.T!!!.=G6G:8*F&lt;G.F)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!&amp;-!]1!!!!!!!!!"$EF.16%A37VB:W5O9X2M!$R!=!!&gt;#5F.16&amp;*&lt;7&amp;H:1!"!!5*35V"55FN97&gt;F&amp;Q#!!!!!!!%!"!!!!!%!!!!!!!!&amp;;7VB:W5!.E"Q!"Y!!"Y=37VB:W6'97.J97R%:82F9X2J&lt;WYO&lt;(:D&lt;'&amp;T=Q!!$(*F:G6S:7ZD:3"J&lt;A!!91$Q!!Q!!Q!%!!9!"Q!%!!1!"!!%!!A!"!!*!!I$!!"Y!!!.#!!!!!!!!!U+!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!%A!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#Q!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
+			</Item>
+			<Item Name="FindEyes_IMAQ.vi" Type="VI" URL="../FindEyes_IMAQ.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!))!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#!!.`````]!"2=!A!!!!!!"!!1!!!!"!!!!!!!!!!!!8Q$R!!!!!!!!!!%/35V"53"*&lt;7&amp;H:3ZD&gt;'Q!3%"Q!"U*35V"55FN97&gt;F!!%!"1F*45&amp;237VB:W58!)!!!!!!!1!%!!!!!1!!!!!!!""J&lt;7&amp;H:3"X;82I)':B9W6T!!!W1(!!(A!!(BR*&lt;7&amp;H:5:B9WFB&lt;%2F&gt;'6D&gt;'FP&lt;CZM&gt;G.M98.T!!!.=G6G:8*F&lt;G.F)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!&amp;-!]1!!!!!!!!!"$EF.16%A37VB:W5O9X2M!$R!=!!&gt;#5F.16&amp;*&lt;7&amp;H:1!"!!5*35V"55FN97&gt;F&amp;Q#!!!!!!!%!"!!!!!%!!!!!!!!&amp;;7VB:W5!.E"Q!"Y!!"Y=37VB:W6'97.J97R%:82F9X2J&lt;WYO&lt;(:D&lt;'&amp;T=Q!!$(*F:G6S:7ZD:3"J&lt;A!!91$Q!!Q!!Q!%!!9!"Q!%!!1!"!!%!!A!"!!*!!I$!!"Y!!!.#!!!!!!!!!U+!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!%A!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#Q!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
+			</Item>
+			<Item Name="FindEyes_LVPic.vi" Type="VI" URL="../FindEyes_LVPic.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;E!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"B!-`````]/-E1A5'FD&gt;(6S:3"P&gt;81!!$:!=!!?!!!?(%FN97&gt;F2G&amp;D;7&amp;M2'6U:7.U;7^O,GRW9WRB=X-!!!VS:7:F=G6O9W5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;E!T`````QUS2#"1;7.U&gt;8*F)'FO!$:!=!!?!!!?(%FN97&gt;F2G&amp;D;7&amp;M2'6U:7.U;7^O,GRW9WRB=X-!!!RS:7:F=G6O9W5A;7Y!!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!#!!*!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!")!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!I!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
+			</Item>
+			<Item Name="FindFaces_LVPic.vi" Type="VI" URL="../FindFaces_LVPic.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;E!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"B!-`````]/-E1A5'FD&gt;(6S:3"P&gt;81!!$:!=!!?!!!?(%FN97&gt;F2G&amp;D;7&amp;M2'6U:7.U;7^O,GRW9WRB=X-!!!VS:7:F=G6O9W5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;E!T`````QUS2#"1;7.U&gt;8*F)'FO!$:!=!!?!!!?(%FN97&gt;F2G&amp;D;7&amp;M2'6U:7.U;7^O,GRW9WRB=X-!!!RS:7:F=G6O9W5A;7Y!!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!#!!*!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!")!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!I!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
+			</Item>
+		</Item>
+		<Item Name="ImageFacialDetection_Create.vi" Type="VI" URL="../protected/ImageFacialDetection_Create.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(\!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$:!=!!?!!!?(%FN97&gt;F2G&amp;D;7&amp;M2'6U:7.U;7^O,GRW9WRB=X-!!!VS:7:F=G6O9W5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!GQ$RU[GV8A!!!!)A5(FU;'^O)%FO&gt;'6H=G&amp;U;7^O)&amp;2P&lt;WRL;81O&lt;(:M;7)71W^O=W^M:3"7;8.J9GFM;82Z,G.U&lt;!"&lt;1"9!!QR4;'^X)%.P&lt;H.P&lt;'5;5WBP&gt;S"$&lt;WZT&lt;WRF)&amp;&gt;I;7RF)&amp;*V&lt;GZJ&lt;G=-3'FE:3"$&lt;WZT&lt;WRF!!!:1W^O=W^M:3"W;8.J9GFM;82Z)#BI;72F+1!K1$,`````)&amp;"B&gt;'AA&gt;']A5(FU;'^O)%VP:(6M:3!I,H"Z)%:J&lt;'5J!!!W1(!!(A!!(BR*&lt;7&amp;H:5:B9WFB&lt;%2F&gt;'6D&gt;'FP&lt;CZM&gt;G.M98.T!!!-=G6G:8*F&lt;G.F)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!(!!A!#1-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!I!!!!+!!!!!A!!$1!!!!Q!!!!!!!!!!!!!!1!+!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1350574610</Property>
+		</Item>
+		<Item Name="Destroy.vi" Type="VI" URL="../Destroy.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%J!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$:!=!!?!!!?(%FN97&gt;F2G&amp;D;7&amp;M2'6U:7.U;7^O,GRW9WRB=X-!!!VS:7:F=G6O9W5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!.E"Q!"Y!!"Y=37VB:W6'97.J97R%:82F9X2J&lt;WYO&lt;(:D&lt;'&amp;T=Q!!$(*F:G6S:7ZD:3"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*!!!!!!!1!)!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
+		</Item>
+		<Item Name="FindFaces.vi" Type="VI" URL="../FindFaces.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0,K&lt;AZJ!!%!!!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
+		</Item>
+		<Item Name="FindEyes.vi" Type="VI" URL="../FindEyes.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0,K=51^!!%!!!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">-2147483648</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
+		</Item>
+	</Item>
+	<Item Name="Typedefs" Type="Folder">
 		<Item Name="ObjectAttributes.ctl" Type="VI" URL="../protected/ObjectAttributes.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"E!!!!!A!21!I!#E&amp;U&gt;(*J9H6U:4%!!%M!]1!!!!!!!!!#'UFN97&gt;F1WRB=X.J:GFD982J&lt;WYO&lt;(:D&lt;'&amp;T=R209GJF9X2"&gt;(2S;7*V&gt;'6T,G.U&lt;!!31&amp;!!!1!!"%2B&gt;'%!!!%!!1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -57,7 +133,7 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 	</Item>
-	<Item Name="protected" Type="Folder">
+	<Item Name="Protected" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		<Item Name="image conversion" Type="Folder">
 			<Item Name="LabVIEWToPythonImage.vi" Type="VI" URL="../protected/LabVIEWToPythonImage.vi">
@@ -78,7 +154,7 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 			</Item>
-			<Item Name="IMAQ_ToPythonImage.vi" Type="VI" URL="../protected/IMAQ_ToPythonImage.vi">
+			<Item Name="IMAQToPythonImage.vi" Type="VI" URL="../protected/IMAQToPythonImage.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(!!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!5!"1!!*E"!!!0```````````````]!"2&amp;1?82I&lt;WYA37VB:W5A2'&amp;U91!A!$@`````!!58!)!!!!!!!1!%!!!!!1!!!!!!!!!!!&amp;U!]1!!!!!!!!!"$EF.16%A37VB:W5O9X2M!%:!=!!&gt;#5F.16&amp;*&lt;7&amp;H:1!"!!=*35V"55FN97&gt;F&amp;Q#!!!!!!!%!"!!!!!%!!!!!!!!/35V"53"*&lt;7&amp;H:3"E&gt;8!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!7Q$R!!!!!!!!!!%/35V"53"*&lt;7&amp;H:3ZD&gt;'Q!2%"Q!"U*35V"55FN97&gt;F!!%!"QF*45&amp;237VB:W58!)!!!!!!!1!%!!!!!1!!!!!!!!V*45&amp;2)%FN97&gt;F)'FO!&amp;1!]!!-!!-!"!!'!!A!"!!%!!1!"!!*!!1!"!!+!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!!)!!!!!!%!#Q!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
@@ -87,7 +163,7 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 			</Item>
-			<Item Name="PythonToIMAQ_Image.vi" Type="VI" URL="../protected/PythonToIMAQ_Image.vi">
+			<Item Name="PythonToIMAQImage.vi" Type="VI" URL="../protected/PythonToIMAQImage.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!']!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#!!.`````]!"2=!A!!!!!!"!!1!!!!"!!!!!!!!!!!!81$R!!!!!!!!!!%/35V"53"*&lt;7&amp;H:3ZD&gt;'Q!2E"Q!"U*35V"55FN97&gt;F!!%!"1F*45&amp;237VB:W58!)!!!!!!!1!%!!!!!1!!!!!!!!Z*45&amp;2)%FN97&gt;F)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!&amp;!!5!!#*!1!!$````````````````!!A-5(FU;'^O)%FN97&gt;F!!"&lt;!0%!!!!!!!!!!1Z*45&amp;2)%FN97&gt;F,G.U&lt;!"%1(!!(1F*45&amp;237VB:W5!!1!&amp;#5F.16&amp;*&lt;7&amp;H:2=!A!!!!!!"!!1!!!!"!!!!!!!!$5F.16%A37VB:W5A;7Y!6!$Q!!Q!!Q!%!!1!"A!%!!1!"!!%!!=!"!!*!!I$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!%!!!!")!!!!!!1!,!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
@@ -95,6 +171,26 @@
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
+			</Item>
+		</Item>
+		<Item Name="utils" Type="Folder">
+			<Item Name="ImageFacialDetection_New.vi" Type="VI" URL="../utils/ImageFacialDetection_New.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+&gt;!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!-P````]A5'&amp;U;#"U&lt;S"1?82I&lt;WYA47^E&gt;7RF)#AO=(EA2GFM:3E!!&amp;-!]&gt;/06O1!!!!#)&amp;"Z&gt;'BP&lt;C"*&lt;H2F:X*B&gt;'FP&lt;C"5&lt;W^M;WFU,GRW&lt;'FC$F.F=X.J&lt;WYA351O9X2M!"N!#!!25(FU;'^O)&amp;.F=X.J&lt;WYA351!4A$R!!!!!!!!!!)=37VB:W6'97.J97R%:82F9X2J&lt;WYO&lt;(:D&lt;'&amp;T=R209GJF9X2"&gt;(2S;7*V&gt;'6T,G.U&lt;!!51&amp;!!!A!&amp;!!9%2'&amp;U91!!&amp;5"Q!#!!!1!(!!F%6F*3:7:0&gt;81!.E"Q!"Y!!"Y=37VB:W6'97.J97R%:82F9X2J&lt;WYO&lt;(:D&lt;'&amp;T=Q!!$8*F:G6S:7ZD:3"P&gt;81!&amp;E!B%%ZF&gt;U^C;G6D&gt;%.S:7&amp;U:71!!&amp;V!&amp;A!#'E.S:7&amp;U:3"P=C"M&lt;W^L)(6Q)'6Y;8.U;7ZH%%RP&lt;WMA&gt;8!A:8BJ=X2J&lt;G=!+%.S:7&amp;U:5VF&gt;'BP:#B$=G6B&gt;'5A&lt;X)A&lt;'^P;S"V=#"F?'FT&gt;'FO:SE!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;%!Q`````QN09GJF9X1A&lt;G&amp;N:1!W1(!!(A!!(BR*&lt;7&amp;H:5:B9WFB&lt;%2F&gt;'6D&gt;'FP&lt;CZM&gt;G.M98.T!!!-=G6G:8*F&lt;G.F)'FO!!"B!0!!$!!$!!1!#!!*!!1!#A!%!!M!$!!%!!U!$A-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!#1!!!!!!!!!)!!!!#A!!!!!!!!))!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!0!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16785536</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1350574610</Property>
+			</Item>
+			<Item Name="ImageFacialDetection_GetAttributes.vi" Type="VI" URL="../utils/ImageFacialDetection_GetAttributes.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)U!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!+E!S`````S"1982I)(2P)&amp;"Z&gt;'BP&lt;C".&lt;W2V&lt;'5A+#ZQ?3"';7RF+1!!5Q$RUY^7Z!!!!!)A5(FU;'^O)%FO&gt;'6H=G&amp;U;7^O)&amp;2P&lt;WRL;81O&lt;(:M;7)/5W6T=WFP&lt;C"*2#ZD&gt;'Q!'U!)!"&amp;1?82I&lt;WYA5W6T=WFP&lt;C"*2!"/!0%!!!!!!!!!!BR*&lt;7&amp;H:5:B9WFB&lt;%2F&gt;'6D&gt;'FP&lt;CZM&gt;G.M98.T&amp;%^C;G6D&gt;%&amp;U&gt;(*J9H6U:8-O9X2M!"2!5!!#!!1!"12%982B!!!41(!!)!!"!!9!"U2B&gt;'&amp;3:79!.E"Q!"Y!!"Y=37VB:W6'97.J97R%:82F9X2J&lt;WYO&lt;(:D&lt;'&amp;T=Q!!$8*F:G6S:7ZD:3"P&gt;81!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!)%!B'E^O&lt;(F(:82%&gt;H*3:7:F=G6O9W5I2G&amp;M=W5J!!!W1(!!(A!!(BR*&lt;7&amp;H:5:B9WFB&lt;%2F&gt;'6D&gt;'FP&lt;CZM&gt;G.M98.T!!!-=G6G:8*F&lt;G.F)'FO!!"B!0!!$!!$!!=!"A!)!!E!#1!*!!E!#A!*!!M!$!-!!(A!!!U)!!!*!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!)!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!.!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">8192</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1350574610</Property>
 			</Item>
 		</Item>
 		<Item Name="GetPythonSession.vi" Type="VI" URL="../protected/GetPythonSession.vi">
@@ -133,104 +229,5 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
-	</Item>
-	<Item Name="utils" Type="Folder">
-		<Item Name="ImageFacialDetection_New.vi" Type="VI" URL="../utils/ImageFacialDetection_New.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+&gt;!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!-P````]A5'&amp;U;#"U&lt;S"1?82I&lt;WYA47^E&gt;7RF)#AO=(EA2GFM:3E!!&amp;-!]&gt;/06O1!!!!#)&amp;"Z&gt;'BP&lt;C"*&lt;H2F:X*B&gt;'FP&lt;C"5&lt;W^M;WFU,GRW&lt;'FC$F.F=X.J&lt;WYA351O9X2M!"N!#!!25(FU;'^O)&amp;.F=X.J&lt;WYA351!4A$R!!!!!!!!!!)=37VB:W6'97.J97R%:82F9X2J&lt;WYO&lt;(:D&lt;'&amp;T=R209GJF9X2"&gt;(2S;7*V&gt;'6T,G.U&lt;!!51&amp;!!!A!&amp;!!9%2'&amp;U91!!&amp;5"Q!#!!!1!(!!F%6F*3:7:0&gt;81!.E"Q!"Y!!"Y=37VB:W6'97.J97R%:82F9X2J&lt;WYO&lt;(:D&lt;'&amp;T=Q!!$8*F:G6S:7ZD:3"P&gt;81!&amp;E!B%%ZF&gt;U^C;G6D&gt;%.S:7&amp;U:71!!&amp;V!&amp;A!#'E.S:7&amp;U:3"P=C"M&lt;W^L)(6Q)'6Y;8.U;7ZH%%RP&lt;WMA&gt;8!A:8BJ=X2J&lt;G=!+%.S:7&amp;U:5VF&gt;'BP:#B$=G6B&gt;'5A&lt;X)A&lt;'^P;S"V=#"F?'FT&gt;'FO:SE!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;%!Q`````QN09GJF9X1A&lt;G&amp;N:1!W1(!!(A!!(BR*&lt;7&amp;H:5:B9WFB&lt;%2F&gt;'6D&gt;'FP&lt;CZM&gt;G.M98.T!!!-=G6G:8*F&lt;G.F)'FO!!"B!0!!$!!$!!1!#!!*!!1!#A!%!!M!$!!%!!U!$A-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!#1!!!!!!!!!)!!!!#A!!!!!!!!))!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!0!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16785536</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1350574610</Property>
-			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
-		</Item>
-		<Item Name="ImageFacialDetection_GetAttributes.vi" Type="VI" URL="../utils/ImageFacialDetection_GetAttributes.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)U!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!+E!S`````S"1982I)(2P)&amp;"Z&gt;'BP&lt;C".&lt;W2V&lt;'5A+#ZQ?3"';7RF+1!!5Q$RUY^7Z!!!!!)A5(FU;'^O)%FO&gt;'6H=G&amp;U;7^O)&amp;2P&lt;WRL;81O&lt;(:M;7)/5W6T=WFP&lt;C"*2#ZD&gt;'Q!'U!)!"&amp;1?82I&lt;WYA5W6T=WFP&lt;C"*2!"/!0%!!!!!!!!!!BR*&lt;7&amp;H:5:B9WFB&lt;%2F&gt;'6D&gt;'FP&lt;CZM&gt;G.M98.T&amp;%^C;G6D&gt;%&amp;U&gt;(*J9H6U:8-O9X2M!"2!5!!#!!1!"12%982B!!!41(!!)!!"!!9!"U2B&gt;'&amp;3:79!.E"Q!"Y!!"Y=37VB:W6'97.J97R%:82F9X2J&lt;WYO&lt;(:D&lt;'&amp;T=Q!!$8*F:G6S:7ZD:3"P&gt;81!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!)%!B'E^O&lt;(F(:82%&gt;H*3:7:F=G6O9W5I2G&amp;M=W5J!!!W1(!!(A!!(BR*&lt;7&amp;H:5:B9WFB&lt;%2F&gt;'6D&gt;'FP&lt;CZM&gt;G.M98.T!!!-=G6G:8*F&lt;G.F)'FO!!"B!0!!$!!$!!=!"A!)!!E!#1!*!!E!#A!*!!M!$!-!!(A!!!U)!!!*!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!)!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!.!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">8192</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1350574610</Property>
-			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
-		</Item>
-	</Item>
-	<Item Name="private" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
-	<Item Name="polymorphic instances" Type="Folder">
-		<Item Name="FindFaces_IMAQ.vi" Type="VI" URL="../FindFaces_IMAQ.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!))!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#!!.`````]!"2=!A!!!!!!"!!1!!!!"!!!!!!!!!!!!8Q$R!!!!!!!!!!%/35V"53"*&lt;7&amp;H:3ZD&gt;'Q!3%"Q!"U*35V"55FN97&gt;F!!%!"1F*45&amp;237VB:W58!)!!!!!!!1!%!!!!!1!!!!!!!""J&lt;7&amp;H:3"X;82I)':B9W6T!!!W1(!!(A!!(BR*&lt;7&amp;H:5:B9WFB&lt;%2F&gt;'6D&gt;'FP&lt;CZM&gt;G.M98.T!!!.=G6G:8*F&lt;G.F)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!&amp;-!]1!!!!!!!!!"$EF.16%A37VB:W5O9X2M!$R!=!!&gt;#5F.16&amp;*&lt;7&amp;H:1!"!!5*35V"55FN97&gt;F&amp;Q#!!!!!!!%!"!!!!!%!!!!!!!!&amp;;7VB:W5!.E"Q!"Y!!"Y=37VB:W6'97.J97R%:82F9X2J&lt;WYO&lt;(:D&lt;'&amp;T=Q!!$(*F:G6S:7ZD:3"J&lt;A!!91$Q!!Q!!Q!%!!9!"Q!%!!1!"!!%!!A!"!!*!!I$!!"Y!!!.#!!!!!!!!!U+!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!%A!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#Q!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
-		</Item>
-		<Item Name="FindEyes_IMAQ.vi" Type="VI" URL="../FindEyes_IMAQ.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!))!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#!!.`````]!"2=!A!!!!!!"!!1!!!!"!!!!!!!!!!!!8Q$R!!!!!!!!!!%/35V"53"*&lt;7&amp;H:3ZD&gt;'Q!3%"Q!"U*35V"55FN97&gt;F!!%!"1F*45&amp;237VB:W58!)!!!!!!!1!%!!!!!1!!!!!!!""J&lt;7&amp;H:3"X;82I)':B9W6T!!!W1(!!(A!!(BR*&lt;7&amp;H:5:B9WFB&lt;%2F&gt;'6D&gt;'FP&lt;CZM&gt;G.M98.T!!!.=G6G:8*F&lt;G.F)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!&amp;-!]1!!!!!!!!!"$EF.16%A37VB:W5O9X2M!$R!=!!&gt;#5F.16&amp;*&lt;7&amp;H:1!"!!5*35V"55FN97&gt;F&amp;Q#!!!!!!!%!"!!!!!%!!!!!!!!&amp;;7VB:W5!.E"Q!"Y!!"Y=37VB:W6'97.J97R%:82F9X2J&lt;WYO&lt;(:D&lt;'&amp;T=Q!!$(*F:G6S:7ZD:3"J&lt;A!!91$Q!!Q!!Q!%!!9!"Q!%!!1!"!!%!!A!"!!*!!I$!!"Y!!!.#!!!!!!!!!U+!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!%A!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#Q!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
-		</Item>
-		<Item Name="FindEyes_LVPic.vi" Type="VI" URL="../FindEyes_LVPic.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;E!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"B!-`````]/-E1A5'FD&gt;(6S:3"P&gt;81!!$:!=!!?!!!?(%FN97&gt;F2G&amp;D;7&amp;M2'6U:7.U;7^O,GRW9WRB=X-!!!VS:7:F=G6O9W5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;E!T`````QUS2#"1;7.U&gt;8*F)'FO!$:!=!!?!!!?(%FN97&gt;F2G&amp;D;7&amp;M2'6U:7.U;7^O,GRW9WRB=X-!!!RS:7:F=G6O9W5A;7Y!!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!#!!*!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!")!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!I!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
-		</Item>
-		<Item Name="FindFaces_LVPic.vi" Type="VI" URL="../FindFaces_LVPic.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;E!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"B!-`````]/-E1A5'FD&gt;(6S:3"P&gt;81!!$:!=!!?!!!?(%FN97&gt;F2G&amp;D;7&amp;M2'6U:7.U;7^O,GRW9WRB=X-!!!VS:7:F=G6O9W5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;E!T`````QUS2#"1;7.U&gt;8*F)'FO!$:!=!!?!!!?(%FN97&gt;F2G&amp;D;7&amp;M2'6U:7.U;7^O,GRW9WRB=X-!!!RS:7:F=G6O9W5A;7Y!!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!#!!*!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!")!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!I!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
-		</Item>
-	</Item>
-	<Item Name="ImageFacialDetection_Create.vi" Type="VI" URL="../protected/ImageFacialDetection_Create.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(\!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$:!=!!?!!!?(%FN97&gt;F2G&amp;D;7&amp;M2'6U:7.U;7^O,GRW9WRB=X-!!!VS:7:F=G6O9W5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!GQ$RU[GV8A!!!!)A5(FU;'^O)%FO&gt;'6H=G&amp;U;7^O)&amp;2P&lt;WRL;81O&lt;(:M;7)71W^O=W^M:3"7;8.J9GFM;82Z,G.U&lt;!"&lt;1"9!!QR4;'^X)%.P&lt;H.P&lt;'5;5WBP&gt;S"$&lt;WZT&lt;WRF)&amp;&gt;I;7RF)&amp;*V&lt;GZJ&lt;G=-3'FE:3"$&lt;WZT&lt;WRF!!!:1W^O=W^M:3"W;8.J9GFM;82Z)#BI;72F+1!K1$,`````)&amp;"B&gt;'AA&gt;']A5(FU;'^O)%VP:(6M:3!I,H"Z)%:J&lt;'5J!!!W1(!!(A!!(BR*&lt;7&amp;H:5:B9WFB&lt;%2F&gt;'6D&gt;'FP&lt;CZM&gt;G.M98.T!!!-=G6G:8*F&lt;G.F)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!(!!A!#1-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!I!!!!+!!!!!A!!$1!!!!Q!!!!!!!!!!!!!!1!+!!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1350574610</Property>
-	</Item>
-	<Item Name="Destroy.vi" Type="VI" URL="../Destroy.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%J!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$:!=!!?!!!?(%FN97&gt;F2G&amp;D;7&amp;M2'6U:7.U;7^O,GRW9WRB=X-!!!VS:7:F=G6O9W5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!.E"Q!"Y!!"Y=37VB:W6'97.J97R%:82F9X2J&lt;WYO&lt;(:D&lt;'&amp;T=Q!!$(*F:G6S:7ZD:3"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*!!!!!!!1!)!!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
-	</Item>
-	<Item Name="FindFaces.vi" Type="VI" URL="../FindFaces.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0,K&lt;AZJ!!%!!!!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
-	</Item>
-	<Item Name="FindEyes.vi" Type="VI" URL="../FindEyes.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0,K=51^!!%!!!!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">-2147483648</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
 	</Item>
 </LVClass>

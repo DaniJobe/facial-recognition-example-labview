@@ -202,9 +202,6 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 	</Item>
-	<Item Name="Methods" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
-	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="SystemController.ReftoDVR.vi" Type="VI" URL="../Private_Protected/SystemController.ReftoDVR.vi">
